@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+<head>
+ 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  	<title>Reservia</title>
+
+<!-- LINK  -->
+		<link rel="stylesheet" href="Normalize/normalize.css">
+		<link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/ef488c0f83.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+        <header>
+                <section id="header_one">
+                    <div>
+                        <a href="#"><img src="src/images/logo/Reservia.svg"></a>
+                    </div>
+                    
+                    <nav id="nav_redirections">
+                        <span id="header_anchors">
+                            <a style="border-top: solid 3px #0065FC; padding-top: 15px; text-decoration: none;" href="#accommodation_section">Hébergements</a>
+                            <a style="border-top: solid 3px gray; padding-top: 15px; text-decoration: none;" href="#activities_section">Activités</a>
+                        </span>
+                        <a href="#">S'inscrire</a>
+                    </nav>
+                </section>
+
+                <section id="header_two">
+                    <nav id="nav_redirections_two">
+                        <a style="border-bottom: solid 3px #0065FC; padding-bottom: 10px; text-decoration: none;" href="#accommodation_section">Hébergements</a>
+                        <a style="border-bottom: solid 3px gray; padding-bottom: 10px; text-decoration: none;" href="#activities_section">Activités</a>
+                    </nav>
+                </section>
+
+        </header>
+
+        <main>
+            
+        <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
+        <legend>En plein centre ville ou en pleine nature</legend>
+
+        
+        <div class="input-group" style="margin-top: 20px; margin-bottom: 20px;"> 
+            <span class="input-group-text border-0" style="border-radius: 10px 0px 0px 10px;">
+                <i class="fas fa-map-marker-alt"></i>
+            </span>
+            <div class="form-outline">
+                
+              <input type="search" style="border: none;" class="form-control" placeholder="Marseille, France" />
+            </div>
+            <button type="button" style="border-radius: 0px 10px 10px 0%;" class="btn btn-primary">
+              <span id="search_word" >Rechercher</span><span id="search_logo" ><i class="fas fa-search"></i></span>
+            </button>
+          </div>
+
+  	<article id="filter_article">
+        
+            <h4 style="margin: 15px;"> Filtres</h4>
+        
+        <div style="border: solid rgba(182, 180, 180, 0.973) 2px;border-left: none ; border-radius: 30px; min-width: 250px;">
+            <button onclick='location.href="#"' style="cursor: pointer; border: solid 5px #DEEBFF; outline: none; padding: 5px 10px 5px 10px; background-color: #DEEBFF !important; border-radius: 30px; color: #0065FC;" type="button" style="border-radius: 30px;" >
+            <i class="fas fa-money-bill-wave"></i>
+          </button><span class="bold filter">Économique</span>
+        </div>
+        <div style="border: solid rgba(182, 180, 180, 0.973) 2px;border-left: none; border-radius: 30px; min-width: 250px;">
+            <button  onclick='location.href="#"' style="cursor: pointer; border: solid 5px #DEEBFF; outline: none; padding: 5px 10px 5px 10px; background-color: #DEEBFF !important; border-radius: 30px; color: #0065FC;" type="button" style="border-radius: 30px;" >
+                <i class="fas fa-child"></i>
+          </button><span class="bold filter">Familial</span>
+        </div>
+        <div style="border: solid rgba(182, 180, 180, 0.973) 2px;border-left: none; border-radius: 30px; min-width: 250px;">
+            <button onclick='location.href="#"' style="cursor: pointer; border: solid 5px #DEEBFF; outline: none; padding: 5px 10px 5px 10px; background-color: #DEEBFF !important; border-radius: 30px; color: #0065FC;" type="button" style="border-radius: 30px;" >
+                <i class="fas fa-heart"></i>
+          </button><span class="bold filter">Romantique</span>
+        </div>
+        <div style="border: solid rgba(182, 180, 180, 0.973) 2px;border-left: none; border-radius: 30px; min-width: 250px;">
+            <button onclick='location.href="#"' style="cursor: pointer; border: solid 5px #DEEBFF; outline: none; padding: 5px 10px 5px 10px; background-color: #DEEBFF !important; border-radius: 30px; color: #0065FC;" type="button" style="border-radius: 30px;" >
+                <i class="fas fa-dog"></i>
+          </button><span class="bold filter">Animaux autorisés</span>
+        </div>
+    </article>
+
+    <legend><i style="color: #0065FC;border: solid gray; padding: 5px 10px 5px 10px; border-radius: 50%;" class="fas fa-info"></i> Plus de 500 logements sont disponibles dans cette ville</legend>
+    
+    <section id="part_one_section">
+        <section id="accommodation_section">
+            <h3>Hébergements à Marseille</h3>
+            
+                <div id="article_div">
+                    <button style="border: none; padding: 0;outline: none;cursor: pointer;" onclick='location.href="#"'>
+                        <article id="article">
+                            <div>
+                                <img src="src/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="auberge_la_cannebière" style="width: 225px; height: 110px; object-fit: cover; object-position: 0 50%;"  >
+                            </div>
+                            <div class="label">
+                            <h4>Auberge la Cannebière</h4>
+                            <p>Nuit à partir de 25€</p>
+                            <div> 
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="far fa-star"></span>
+                            </div>
+                            </div>
+                        </article>
+                    </button>
+
+                    <button style="border: none; outline: none; padding: 0;cursor: pointer;" onclick='location.href="#"'>
+                        <article id="article">
+                            <div>
+                                <img src="src/images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="Hôtel_du_port" style="width: 225px; height: 110px; object-fit: cover; object-position: 0 50%;"  >
+                            </div>
+                            <div class="label">
+                            <h4>Hôtel du port</h4>
+                            <p>Nuit à partir de 57€</p>
+                            <div> 
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                        </div>
+                        </article>
+                    </button>
+
+                    <button style="border: none; outline: none; padding: 0;cursor: pointer;" onclick='location.href="#"'>
+                        <article id="article">
+                            <div>
+                                <img src="src/images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="Hôtel_les_mouettes" style="width: 225px; height: 110px; object-fit: cover; object-position: 0 50%;"  >
+                            <div>
+                            <div class="label">
+                            <h4>Hôtel les mouettes</h4>
+                            <p>Nuit à partir de 76€</p>
+                            <div> 
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="far fa-star"></span>
+                            </div>
+                        </div>
+                        </article>
+                    </button>
+
+                    <button style="border: none; outline: none; padding: 0;cursor: pointer;" onclick='location.href="#"'>
+                        <article id="article">
+                            <div>
+                                <img src="src/images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Hôtel_de_la_mer" style="width: 225px; height: 110px; object-fit: cover; object-position: 0 50%;"  >
+                            <div>
+                            <div class="label">
+                            <h4>Hôtel de la mer</h4>
+                            <p>Nuit à partir de 46€</p>
+                            <div> 
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="far fa-star"></span>
+                                <span class="far fa-star"></span>
+                            </div>
+                        </div>
+                        </article>
+                    </button>
+
+                    <button style="border: none; outline: none; padding: 0;cursor: pointer;" onclick='location.href="#"'>
+                        <article id="article">
+                            <div>
+                                <img src="src/images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Auberge_La_Panier" style="width: 225px; height: 110px; object-fit: cover; object-position: 0 50%;"  >
+                            <div>
+                            <div class="label">
+                            <h4>Auberge La Panier</h4>
+                            <p>Nuit à partir de 23€</p>
+                            <div> 
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="far fa-star"></span>
+                            </div>
+                        </div>
+                        </article>
+                    </button>
+
+                    <button style="border: none; outline: none; padding: 0;cursor: pointer;" onclick='location.href="#"'>
+                        <article id="article">
+                            <div>
+                                <img src="src/images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="Hôtel_chez_Amina" style="width: 225px; height: 110px; object-fit: cover; object-position: 0 50%;"  >
+                            <div>
+                            <div class="label">
+                            <h4>Hôtel chez Amina</h4>
+                            <p>Nuit à partir de 96€</p>
+                            <div> 
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                            </div>
+                        </article>
+                    </button>
+                </div>
+            
+            <a href="#" style="text-decoration: none; font-weight: 700; color: black;">Afficher plus</a>
+        </section>
+        
+        
+        <section id="popularity_section">
+            <div id="popularity-title">
+                <h3>Les plus populaires</h3>
+                <i style="font-size: 2em;" class="fas fa-chart-line"></i>
+            </div>
+            <button style="border: none; outline: none;padding: 0;cursor: pointer" onclick='location.href="#"'>
+                <article id="article">
+                    <div>
+                        <img src="src/images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Hôtel_le_soleil_du_matin" style="width: 120px; height: 140px; object-fit: cover; object-position: 40% 0;"  >
+                    </div>
+                    <div  class="label">
+                        <h4>Hôtel le soleil du matin</h4>
+                        <p>Nuit à partir de 128€</p>
+                        <div> 
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                    </div>
+                </article>
+            </button>
+            <button style="border: none; outline: none;padding: 0;cursor: pointer;" onclick='location.href="#"'>
+                <article id="article">
+                    <div>
+                        <img src="src/images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="Au_coeur_de_l'eau_chambre_d'hôte" style="width: 120px; height: 140px; object-fit: cover; object-position: 40% 0;"  >
+                    </div>
+                    <div  class="label">
+                        <h4>Au coeur de l'eau chambre d'hôte</h4>
+                        <p>Nuit à partir de 71€</p>
+                        <div> 
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="far fa-star"></span>
+                        </div>
+                    </div>
+                </article>
+            </button>
+            <button style="border: none; outline: none;padding: 0;cursor: pointer;" onclick='location.href="#"'>
+                <article id="article">
+                    <div>
+                        <img src="src/images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Hôtel_Tout_bleu_et_Blanc" style="width: 120px; height: 140px; object-fit: cover; object-position: 40% 0;"  >
+                    </div>
+                    <div  class="label">
+                        <h4>Hôtel Tout bleu et Blanc</h4>
+                        <p>Nuit à partir de 68€</p>
+                        <div> 
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="far fa-star"></span>
+                        </div>
+                    </div>
+                </article>
+            </button>
+        </section>
+    </section>
+    
+    <section id="activities_section">
+        <h3>Activités à Marseille</h3>
+        <section id="activities_article">
+            <button style="cursor: pointer;border: none; outline: none; background-color: white;padding: 0;" onclick='location.href="#"'>
+                <article class="activities">
+                    <img src="src/images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Vieux_port" style="width: 240px; height: 300px; object-fit: cover; object-position: 40% 0;"  >
+                    <h4>Vieux Port</h4>
+                </article>
+            </button>
+        <div>
+            <button style="cursor: pointer;border: none; outline: none; background-color: white;padding: 0;" onclick='location.href="#"'>
+                <article class="activities">
+                    <img src="src/images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Fort_de_pomégues" style="width: 240px; height: 150px; object-fit: cover; object-position: 0 50%;"  >
+                    <h4>Fort de Pomégues</h4>
+                </article>
+            </button>
+            <button style="cursor: pointer;border: none; outline: none; background-color: white;padding: 0;" onclick='location.href="#"'>
+                <article class="activities">
+                    <img src="src/images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="Îles_du_Frioul" style="width: 240px; height: 150px; object-fit: cover; object-position: 0 0%;"  >
+                    <h4>Îles du Frioul</h4>
+                </article>
+            </button>
+        </div>
+        
+           <hr>
+        
+        <button style="cursor: pointer;border: none; outline: none; background-color: white;padding: 0;" onclick='location.href="#"'>
+            <article class="activities">
+                <img src="src/images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="Parc_national_des_calanques" style="width: 280px; height: 300px; object-fit: cover; object-position: 40% 0;"  >
+                <h4>Parc National des Calanques</h4>
+            </article>
+        </button>
+        <div>
+            <button style="cursor: pointer;border: none; outline: none; background-color: white;padding: 0;" onclick='location.href="#"'>
+                <article class="activities">
+                    <img src="src/images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="Notre-Dame-de-la-Garde" style="width: 240px; height: 150px; object-fit: cover; object-position: 0 50%;"  >
+                    <h4>Notre-Dame-de-la-Garde</h4>
+                </article>
+            </button>
+            <button style="cursor: pointer;border: none; outline: none; background-color: white;padding: 0;" onclick='location.href="#"'>
+                <article class="activities">
+                    <img src="src/images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="Parc_Longchamp" style="width: 240px; height: 150px; object-fit: cover; object-position: 0 50%;"  >
+                    <h4>Parc Longchamp</h4>
+                </article>
+            </button>
+        </div>
+        </section>
+    </section>
+    </main>
+
+    <footer>
+        
+        <section id="footer_section">
+                <div>
+                    <ul>
+                        <li><span class="bold">A propos</span></li>
+                        <br/>
+                        <li><a href="#">Fonctionnement du site</a></li>
+                        <li><a href="#">Conditions générales de vente</a></li>
+                        <li><a href="#">Données et confidentialité</a></li>
+                    </ul>
+            </div>
+        
+        <div id="footer_accomodation">
+                <ul>
+                    <li><span class="bold">Nos Hébergements</span></li>
+                    <br/>
+                    <li><a href="#">Charte qualité</a></li>
+                    <li><a href="#">Soumettre votre hôtel</a></li>
+                </ul>
+        </div>
+        <div>
+                <ul>
+                    <li><span class="bold">Assistance</span></li>
+                    <br/>
+                    <li><a href="#">Centre d'aide</a></li>
+                    <li><a href="#">Nous contacter</a></li>
+                </ul>
+        </div>
+        </section>
+    </footer>
+</body>
+</html>

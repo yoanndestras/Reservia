@@ -1,0 +1,396 @@
+body
+{
+    width: 100%;
+    font-family: 'Raleway', sans-serif !important;
+}
+main, header
+{
+    width: 90%;
+    margin: 0 auto;
+}
+h2, h3, h4
+{
+    font-family: 'Raleway', sans-serif !important;
+    font-weight: 700 !important;
+}
+h4
+{
+    font-size: 1em !important;
+}
+#header_one 
+{
+    display: flex !important;
+    justify-content: space-between;
+    flex: row wrap;
+}
+#header_two
+{
+    display: none;
+}
+#nav_redirections 
+{
+    margin: 20px;
+}
+#nav_redirections a
+{
+    margin: 20px;
+}
+
+h2
+{
+    font-size: 1.5em !important;
+}
+#search_logo
+{
+    display: none;
+}
+legend
+{
+    font-size: 1em !important;
+}
+.filter
+{
+    margin: 20px;
+}
+#filter_article
+{
+    display: flex;
+    flex-flow: wrap;
+    margin: 20px
+}
+#filter_article div
+{
+    display: inline-block;
+}
+#filter_article div:hover
+{
+    background-color: #0065FC;
+    color: white;
+    transition: 0.8s;
+
+    
+    
+}
+#filter_article div:hover
+button
+{
+    transform: translateX(200px);
+    transition: 0.8s;
+
+}
+#accommodation_section
+{
+    width: 65%;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    padding: 20px;
+
+}
+
+
+
+#article_div
+{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#article_div article
+{
+    background-color: white;
+    border: solid 5px white;
+    border-radius: 20px;
+    margin: 20px;
+
+    -moz-box-shadow:     0 0 10px #5c5a5a70;
+   -webkit-box-shadow:  0 0 10px #5c5a5a70;
+   box-shadow:          0 0 10px #5c5a5a70;
+   text-align: left;
+}
+
+#article:hover
+div
+{
+    opacity: 0.8;
+}
+#article_div article img
+{
+    border-radius: 20px 20px 0% 0%;
+}
+#part_one_section
+{
+    display: flex;
+    justify-content: space-between;
+}
+#popularity_section
+{
+    width: 30%;
+    min-width: 400px;
+    margin-left: 20px;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    padding: 20px;
+}
+#popularity_section article
+{
+    background-color: white;
+    border: solid 5px white;
+    border-radius: 20px;
+    margin: 20px;
+    display: flex;
+    text-align: left;
+}
+#popularity_section article img
+{
+    border-radius: 20px 0 0 20px;
+}
+#popularity-title
+{
+    display: flex;
+    justify-content: space-between;
+}
+.label
+{
+    margin: 10px;
+}
+#activities_section
+{
+    margin-top: 40px;
+}
+#activities_article
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#activities_article div
+{
+    display: flex;
+    flex-direction: column;
+}
+#activities_article button article
+{
+    border: none 5px white;
+    border-radius: 20px;
+    -webkit-box-shadow: 0 8px 6px -6px #5c5a5a70;
+    -moz-box-shadow: 0 8px 6px -6px #5c5a5a70;
+         box-shadow: 0 8px 6px -6px #5c5a5a70;
+    
+}
+.activities h4
+{
+    padding: 20px ;
+}
+#activities_article div article h4
+{
+    padding: 5px;
+}
+#activities_article img, #activities_article div article img
+{
+    border-radius: 20px 20px 0% 0%;
+}
+.activities:hover
+{
+    opacity: 0.8;
+}
+
+footer
+{
+    background-color: #F2F2F2;
+    list-style-type: none;
+    padding: 40px;
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: row wrap;
+
+}
+footer ul
+{
+    display: flex;
+    list-style-type: none;
+
+    flex-direction: column;
+    justify-content: space-between;
+}
+footer a
+{
+    text-decoration: none !important;
+    color: black;
+}
+footer a:hover
+{
+    color: black;
+}
+
+hr {
+    display: none;
+  }
+.bold
+{
+    font-weight: 700;
+}
+#footer_section
+{
+    display: flex;
+    flex-direction: row wrap;
+}
+#footer_accomodation
+{
+    margin-left: 250px ;
+    margin-right: 250px ;
+}
+@media screen and (max-width: 1150px)
+{
+    hr {
+        display: block;
+        width: 100%;
+      }
+
+      #activities_article
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    #footer_accomodation
+    {
+        margin-left: 50px ;
+        margin-right: 50px ;
+    }
+    
+    
+}
+@media screen and (max-width: 850px)
+{
+        #part_one_section
+        {
+            flex-direction: column;
+        }
+        #accommodation_section
+        {
+            width: 100%;
+        }
+        #popularity_section
+        {
+            margin: 0 auto;
+            margin-top: 25px;
+            margin-bottom: 25px;
+        }
+        #part_one_section
+        {
+            
+            flex-direction: column-reverse;
+            
+        }
+}
+@media screen and (max-width: 600px)
+{
+    #header_anchors
+    {
+        display: none !important;
+    }
+    #header_two
+    {
+        display: flex;
+        
+        
+    }
+    #nav_redirections_two
+    {
+        width: 100%;
+        display: flex !important;
+        flex-direction: row wrap;
+        justify-content: space-evenly;
+
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    #search_logo
+    {
+        display: block !important;
+    }
+    #search_word
+    {
+        display: none !important;
+    }
+
+    
+    #footer_section
+    {
+        display: block;
+        display: flex;
+        flex-direction: column;
+    }
+    #footer_accomodation
+    {
+        margin-left: 0 ;
+        margin-right: 0 ;
+    }
+}
+
+@media screen and (max-width: 500px)
+{
+    hr 
+    {
+        display: none;
+        width: 100%;
+    }
+    .activities img
+    {
+        width: 240px !important; 
+        height: 150px !important; 
+        object-fit: cover !important; 
+        object-position: 0 50% !important;
+    }
+    #popularity-title h3
+    {
+        font-size: 1.1em !important;
+    }
+    .fa-chart-line
+    {
+        font-size: 1.1em !important;
+    }
+    #popularity_section
+    {
+        background-color: white !important;
+        padding: 0;
+    }
+    #accommodation_section
+    {
+        background-color: white !important;
+    }
+    #popularity_section button
+    {
+        background-color: white !important;
+    }
+    #accommodation_section button
+    {
+        background-color: white !important;
+    }
+    
+    #popularity_section article
+    {
+        -webkit-box-shadow: 0 8px 6px -6px #5c5a5a70;
+        -moz-box-shadow: 0 8px 6px -6px #5c5a5a70;
+         box-shadow: 0 8px 6px -6px #5c5a5a70;    
+    }
+}
+
+@media screen and (max-width: 400px)
+{
+    #popularity_section
+    {
+        min-width: 310px;
+    }
+    #popularity_section img
+    {
+        width: 125px !important;
+        height: 150px !important;
+    }
+    #popularity_section p
+    {
+        font-size: 0.8em;
+    }
+}
